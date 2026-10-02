@@ -1,0 +1,38 @@
+# Зависимости Node.js
+node_modules/
+frontend/node_modules/
+
+# Сборки и кэш фронтенда
+dist/
+frontend/dist/
+.vite/
+frontend/.vite/
+
+# Артефакты компиляции Hardhat
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# Виртуальное окружение Python и кэш
+backend/venv/
+backend/__pycache__/
+__pycache__/
+*.pyc
+
+# Базы данных SQLite
+backend/*.db
+*.sqlite3
+*.db
+
+# Переменные окружения и ключи
+.env
+.env.local
+
+# Логи
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+.venv/
+venv/
